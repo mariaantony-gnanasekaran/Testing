@@ -1,27 +1,26 @@
-var add =require("./addition");
-var sub =require("./subtracktion");
-var multiply =require("./multiplication");
-var divide =require("./division");
-var mod=require("./modules");
-var fact=require("./factorial");
-
+import {addition} from "./addition"
+import {subtraction} from "./subtraction"
+import {multiplication} from "./multiplication"
+import {division} from "./division"
+import {modules} from "./modules"
+import {factorial} from "./factorial"
 function addfn(a,b){
-return add.addition(a,b);
+return addition(a,b);
 }
 function subfn(a,b){
-return sub.subtraction(a,b);
+return subtraction(a,b);
 }
 function mulfn(a,b){
-return multiply.multiplication(a,b);
+return multiplication(a,b);
 }
 function divfn(a,b){
-return divide.division(a,b);
+return division(a,b);
 }
 function modfn(a,b){
-return mod.modules(a,b);
+return modules(a,b);
 }
 function facfn(a){
-return fact.factorial(a);
+return factorial(a);
 }
 module.exports={
     add:addfn,
