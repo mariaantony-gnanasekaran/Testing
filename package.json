@@ -1,8 +1,8 @@
 {
   "name": "testing-package",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "package testing",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +21,7 @@
   },
   "devDependencies": {},
   "jspm": {
-    "main": "main",
+    "main": "index",
     "directories": {
       "lib": "dist"
     },
