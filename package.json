@@ -21,7 +21,7 @@
   },
   "devDependencies": {},
   "jspm": {
-    "main": "main/dist/main.js",
+    "main": "dist/main.js",
 
     "dependencies": {},
     "devDependencies": {
