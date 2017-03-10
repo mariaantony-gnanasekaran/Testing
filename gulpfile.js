@@ -1,5 +1,5 @@
 var gulp = require('gulp');
 gulp.task("copy",function(){
-    return gulp.src("./sample/main.js")
+    return gulp.src("./sample/**")
     .pipe(gulp.dest("./dist"));
 })

@@ -1,6 +1,6 @@
 {
   "name": "testing-package",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "package testing",
   "main": "dist/main.js",
   "scripts": {
