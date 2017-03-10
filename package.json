@@ -1,6 +1,6 @@
 {
   "name": "testing-package",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "package testing",
   "main": "dist/main.js",
   "scripts": {
@@ -19,5 +19,15 @@
   "dependencies": {
     "gulp": "^3.9.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "jspm": {
+    "main": "main/dist/main.js",
+
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
 }
