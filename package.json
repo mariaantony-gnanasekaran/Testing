@@ -1,6 +1,6 @@
 {
   "name": "testing-package",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "description": "package testing",
   "main": "dist/index.js",
   "scripts": {
