@@ -1,6 +1,8 @@
-function addition(a,b){
- return a+b;
+"use strict";
+
+function addition(a, b) {
+  return a + b;
 }
-module.exports={
-    addition:addition
-}
+module.exports = {
+  addition: addition
+};

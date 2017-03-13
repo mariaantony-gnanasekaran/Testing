@@ -1,6 +1,8 @@
-function subtraction(a,b){
- return a-b;
+"use strict";
+
+function subtraction(a, b) {
+  return a - b;
 }
-module.exports={
-    subtraction:subtraction
-}
+module.exports = {
+  subtraction: subtraction
+};

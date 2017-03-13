@@ -1,6 +1,8 @@
-function modules(a,b){
- return a%b;
+"use strict";
+
+function modules(a, b) {
+  return a % b;
 }
-module.exports={
-    modules:modules
-}
+module.exports = {
+  modules: modules
+};

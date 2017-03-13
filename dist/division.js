@@ -1,6 +1,8 @@
-function division(a,b){
- return a%b;
+"use strict";
+
+function division(a, b) {
+  return a % b;
 }
-module.exports={
-    division:division
-}
+module.exports = {
+  division: division
+};

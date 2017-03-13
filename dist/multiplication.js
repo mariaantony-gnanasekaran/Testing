@@ -1,6 +1,8 @@
-function multiplication(a,b){
- return a*b;
+"use strict";
+
+function multiplication(a, b) {
+  return a * b;
 }
-module.exports={
-    multiplication:multiplication
-}
+module.exports = {
+  multiplication: multiplication
+};
